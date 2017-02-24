@@ -11,7 +11,6 @@ class Hotel
     @@hotels << self
   end
 
-
   def self.all
     @@hotels
   end
