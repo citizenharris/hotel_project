@@ -3,13 +3,13 @@ describe Hotel do
   let(:hotel1) { Hotel.new name: 'Hilton',
                            rating: 5,
                            city: 'London',
-                           total_rooms: 150,
+                           total_rooms: '150',
                            features: ['pool', 'steam room', 'gym'] }
 
   let(:hotel2) { Hotel.new name: 'Premier Inn',
                            rating: 1,
                            city: 'Leeds',
-                           total_rooms: 15,
+                           total_rooms: '15',
                            features: [] }
 
   before :each do
